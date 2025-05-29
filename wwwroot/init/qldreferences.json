@@ -1,0 +1,16 @@
+{
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "catalog": [
+    {
+      "name": "Queensland References",
+      "type": "group",
+      "isOpen": true,
+      "members": []
+    }
+  ]
+}

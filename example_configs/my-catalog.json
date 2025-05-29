@@ -1,0 +1,68 @@
+{
+    "homeCamera": {
+        "north": -8,
+        "east": 158,
+        "south": -45,
+        "west": 109
+    },
+    "catalog": [
+        {
+            "url": "http://services.ga.gov.au/gis/rest/services/GA_Surface_Geology/MapServer",
+            "type": "esri-mapServer",
+            "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+            "name": "Surface Geology",
+            "rectangle": {
+                "west": 106,
+                "south": -52,
+                "east": 172,
+                "north": -8
+            },
+            "info": [
+                {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+            ]
+        },
+        {
+            "id": "vicmaphydro",
+            "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Hydro/MapServer",
+            "type": "esri-mapServer",
+            "name": "VicMap Hydro"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Catchment Scale Land Use",
+            "id": "354db2f2",
+            "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
+            "forceProxy": true
+        },
+        {
+            "id": "FxPHcHvxoO",
+            "type": "wms-group",
+            "name": "Marine water quality grids for the Great Barrier Reef region - monthly data",
+            "url": "proxy/_0d/http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1M"
+        },
+        {
+            "id": "3chNzj13TB",
+            "type": "wms-group",
+            "name": "WMS layers for the Australian Renewable Energy Mapping Infrastructure project.",
+            "url": "https://gis.aremi.data61.io/bom/wms"
+        },
+        {
+            "id": "vicmapprop",
+            "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property/MapServer",
+            "type": "esri-mapServer",
+            "name": "VicMap Property"
+        }
+    ],
+    "viewerMode": "3dSmooth",
+    "workbench": [
+        "vicmapprop",
+        "vicmaphydro"
+    ],
+    "baseMaps": {
+        "defaultBaseMapId": "basemap-openstreetmap",
+        "previewBaseMapId": "basemap-natural-earth-II"
+    }
+}

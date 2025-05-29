@@ -1,0 +1,35 @@
+{
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "catalog": [
+    {
+      "name": "National References",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "url": "https://services.ga.gov.au/gis/rest/services/GA_Surface_Geology/MapServer",
+          "type": "esri-mapServer",
+          "name": "Surface Geology",
+          "description": ""
+        },
+        {
+          "url": "https://services.ga.gov.au/gis/rest/services/Land_Cover_WM/MapServer",
+          "type": "esri-mapServer",
+          "name": "Land Cover WM",
+          "description": "The Land Cover map service includes information derived from the Dynamic Land Cover Dataset (2000-2008) containing Enhanced Vegetation Index (EVI) information. The service provides a base-line for identifying and reporting on change and trends in vegetation cover and extent. It is a cached service with a Web Mercator Projection."
+        },
+        {
+          "name": "Surface Hydrology",
+          "type": "esri-mapServer",
+          "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer",
+          "description": "The service provides Australian surface hydrology, including natural and man-made features such as water courses (including directional flow paths), lakes, dams and other water bodies. The information was derived from the Surface Hydrology database, with a nominal scale of 1:250,000. The service contains layer scale dependencies."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "initialCamera": {
+    "west": 151.00124359130862,
+    "south": -33.928120867507204,
+    "east": 151.329460144043,
+    "north": -33.792130471338574
+  },
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "workbench": ["3", "2", "1"],
+  "catalog": [
+    {
+      "id": "gp1",
+      "name": "GINT Information",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "id": "3",
+          "type": "geojson",
+          "name": "Sydney Data",
+          "description": "GINT Locations with lithology, scraped from F:\\1. Projects\\4. SYD-GEOTECHNICS",
+          "url": "data/sydney.geojson",
+          "isOpenInWorkbench": true,
+          "styles": [
+            {
+              "id": "hole_type",
+              "color": { "colorPalette": "HighContrast" },
+              "hidden": false
+            }
+          ],
+          "activeStyle": "hole_type"
+        },
+        {
+          "id": "2",
+          "type": "geojson",
+          "name": "Melbourne Data",
+          "description": "GINT Locations with lithology, scraped from \\\\tt.local\\cof\\S772\\F\\GEOT\\",
+          "url": "data/melbourne.geojson",
+          "isOpenInWorkbench": false,
+          "styles": [
+            {
+              "id": "hole_type",
+              "color": { "colorPalette": "HighContrast" },
+              "hidden": false
+            }
+          ],
+          "activeStyle": "hole_type"
+        },
+        {
+          "id": "1",
+          "type": "geojson",
+          "name": "Brisbane Data",
+          "description": "GINT Locations with lithology, scraped from \\tt.local\\cof\\S793\\F\\GEOT\\",
+          "url": "data/brisbane.geojson",
+          "isOpenInWorkbench": false,
+          "styles": [
+            {
+              "id": "hole_type",
+              "color": { "colorPalette": "HighContrast" },
+              "hidden": false
+            }
+          ],
+          "activeStyle": "hole_type"
+        }
+      ]
+    }
+  ]
+}

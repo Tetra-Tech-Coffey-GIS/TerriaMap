@@ -1,0 +1,23 @@
+{
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "catalog": [
+    {
+      "name": "NSW References",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Land_Parcel_Property_Theme/FeatureServer/8",
+          "type": "esri-featureServer",
+          "name": "NSW Land Parcel and Property Lots",
+          "description": "NSW Land Parcel and Property Theme Lot is a polygon feature that defines a parcel of land created on a survey plan. Parcel polygons are defined by a series of boundary lines that store recorded dimensions as attributes in the lines table. It visualises these boundaries of land parcels, often buildings on land, the parcel identifier, and basic topographic features."
+        }
+      ]
+    }
+  ]
+}

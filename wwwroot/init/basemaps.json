@@ -1,0 +1,20 @@
+{
+  "viewerMode": "2D",
+  "baseMaps": {
+    "items": [
+      {
+        "item": {
+          "id": "basemap-esri_world_imagery",
+          "name": "Esri World Imagery",
+          "type": "esri-mapServer",
+          "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/",
+          "attribution": ""
+        },
+        "image": "build/TerriaJS/images/natural-earth.png",
+        "contrastColor": "#000000"
+      }
+    ],
+    "defaultBaseMapId": "basemap-openstreetmap",
+    "previewBaseMapId": "basemap-natural-earth-II"
+  }
+}

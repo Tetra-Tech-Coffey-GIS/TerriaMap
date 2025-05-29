@@ -1,0 +1,22 @@
+{
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "catalog": [
+    {
+      "name": "Victoria References",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "type": "wms-group",
+          "name": "Discover and access Victorian Government open data",
+          "url": "https://opendata.maps.vic.gov.au/geoserver/wms"
+        }
+      ]
+    }
+  ]
+}
