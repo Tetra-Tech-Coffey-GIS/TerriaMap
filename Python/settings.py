@@ -1,0 +1,6 @@
+OPENAPI_VERSION = '3.0.2'
+DESCRIPTION='A wonderful API'
+ESDAT_SERVER='etss708sql1'
+ESDAT_USER='esdat_import'
+ESDAT_PWD='Newell2022'
+ESDAT_DATABASE='Esdat'

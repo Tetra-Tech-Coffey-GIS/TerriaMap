@@ -5,6 +5,7 @@
     "south": -45,
     "west": 109
   },
+  "corsDomains": ["portal.spatial.nsw.gov.au"],
   "catalog": [
     {
       "name": "NSW References",

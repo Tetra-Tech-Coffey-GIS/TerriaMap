@@ -18,6 +18,7 @@ export default function UserInterface(props) {
   return (
     <StandardUserInterface {...props} version={version}>
       <MenuLeft>
+        <MenuItem caption="Login" href={aboutButtonHrefUrl} key="about-link" />
         {aboutButtonHrefUrl ? (
           <MenuItem
             caption="About"

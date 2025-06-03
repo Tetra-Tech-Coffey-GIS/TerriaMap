@@ -1,0 +1,9 @@
+pandas
+geojson
+pyodbc
+bs4
+requests
+flask
+pymssql
+APIFlask
+Flask-SQLAlchemy

@@ -5,6 +5,7 @@
     "south": -45,
     "west": 109
   },
+  "corsDomains": ["services.ga.gov.au"],
   "catalog": [
     {
       "name": "National References",
