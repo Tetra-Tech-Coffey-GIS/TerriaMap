@@ -1,0 +1,33 @@
+{
+  "initialCamera": {
+    "west": 151.00124359130862,
+    "south": -33.928120867507204,
+    "east": 151.329460144043,
+    "north": -33.792130471338574
+  },
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "corsDomains": ["127.0.0.1:5000"],
+  "catalog": [
+    {
+      "id": "sar1",
+      "name": "Esdat",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "id": "sar3",
+          "type": "geojson",
+          "name": "Esdat Locations",
+          "description": "",
+          "url": "http://127.0.0.1:5000/esdatlocations/6",
+          "isOpenInWorkbench": false
+        }
+      ]
+    }
+  ]
+}

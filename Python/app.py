@@ -2,13 +2,14 @@ import pandas as pd
 import pymssql
 import geojson
 from geojson import Feature, FeatureCollection, Point
-# from flask import Flask, request, jsonify,g
+from flask import jsonify
 from apiflask import APIFlask
-from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 import getpass
 import os
 
 app = APIFlask(__name__,json_errors=True)
+CORS(app)
 
 app.config.from_pyfile('settings.py')
 
@@ -22,7 +23,7 @@ def df_to_geojson(df, properties, lat='Latitude', lon='Longitude'):
         my_feature['properties'] = output
         features.append(my_feature)
     feature_collection = FeatureCollection(features)
-    return geojson.dumps(feature_collection, sort_keys=True)
+    return jsonify(feature_collection)
 
 def get_db():
     mssql_db = pymssql.connect(

@@ -1,5 +1,13 @@
 {
-  "initializationUrls": ["references","nswreferences","vicreferences","qldreferences","basemaps","geotech_bh_map"],
+  "initializationUrls": [
+    "references",
+    "nswreferences",
+    "vicreferences",
+    "qldreferences",
+    "basemaps",
+    "geotech_bh_map",
+    "sar_esdat"
+  ],
   "parameters": {
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
